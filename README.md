@@ -1,0 +1,1 @@
+# Hackintosh-i5-12400-AMD-Radeon-rx-6650xt-b660-Gaming-X-AX
