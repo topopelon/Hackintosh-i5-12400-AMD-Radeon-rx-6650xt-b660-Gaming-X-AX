@@ -1,5 +1,7 @@
 # Hackintosh-i5-12400-AMD-Radeon-rx-6650xt-b660-Gaming-X-AX
 
+![Screen Shot 2023-02-19 at 20 40 05](https://user-images.githubusercontent.com/49093831/219971177-12659d13-ad67-48f3-b273-c513b9a33177.png)
+
 # Specs
 
 - CPU: Intel i5-12400
