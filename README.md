@@ -1,5 +1,7 @@
 # Hackintosh-i5-12400-AMD-Radeon-rx-6650xt-b660-Gaming-X-AX
 
+![Hackintosh-i5-12400-AMD-Radeon-rx-6650xt-b660-Gaming-X-AX](images/specs.png)
+
 # Specs
 
 - CPU: Intel i5-12400
@@ -38,6 +40,12 @@ It is important to disable the iGPU for the sake of compatibility `-wegnoigpu`. 
 
 My MacOS is installed in the 500gb m.2 SSD. I have a 1TB m.2 SSD with Windows installed. I have to disable the Secure Boot in the BIOS in order to make the Windows bootable USB work. This way, both OS can coexist in the same computer without any problem.
 
+## Usb ports
+
+Done with `USBTool`.
+
+![USBTool](images/ports.png)
+
 # Problems
 
 - I was stucked at the first boot screen. I had to disable and enable all the features in the BIOS (like VT-d, CSM, etc) and then it worked. Specially, disable the **Resizable BAR** feature.
@@ -48,7 +56,7 @@ My MacOS is installed in the 500gb m.2 SSD. I have a 1TB m.2 SSD with Windows in
 
 - In order to use my AMD Radeon rx 6650xt, I had to spoof it as a Radeon RX 6600xt. I directly copied the the custom ACPI file from [this repo](https://github.com/corot2a/Hackintosh-12700KF-B660M-MORTAR-6650XT/blob/main/EFI/OC/ACPI/SSDT-6650XT.aml) (Go give him some love).
 
-- To make the external monitor have HiDPI, I had to use [this app](https://github.com/usr-sse2/RDM) and to control the brightness without the OSD controls, I had to use [this app](https://github.com/MonitorControl/MonitorControl).
+- To make the external monitor have HiDPI, I used [this app](https://github.com/usr-sse2/RDM) and to control the brightness without the OSD controls, I had to use [this app](https://github.com/MonitorControl/MonitorControl).
 
 - Sleep doesn't work. It works but randomly wakes up. The monitor stop working but the pc is still on. I don't know how to fix it.
 
