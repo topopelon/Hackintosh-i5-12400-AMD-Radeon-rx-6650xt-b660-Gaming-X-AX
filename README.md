@@ -62,7 +62,7 @@ Done with `USBTool`.
 
 - When it boots for the first time, if I did not add the `NVMeFix.kext` to the `EFI/OC/Kexts` folder, it doesn't recognize the storage, so add it if needed.
 
-.
+- In case of any Windows updates breaking the MacOS EFI, we have to replace the entire EFI with a healthy one and restart, supposedly it will work.
 .
 .
 
